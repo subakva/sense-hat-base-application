@@ -6,7 +6,7 @@
 // We then register for events on the joystick, and use the information passed
 // into the event handlers to move the ball in the same direction that the
 // joystick is pressed.
-SenseHat = require('node-sense-hat');
+let SenseHat = require('node-sense-hat');
 
 // Let's pull out the joystick library
 JoystickLib = SenseHat.Joystick;
@@ -43,7 +43,7 @@ setInterval(drawBall, interval);
 // joystick on the sense-hat, which is a way to receive events when the
 // joystick is used
 JoystickLib.getJoystick()
-	.then(function(joystick) {
+	.then((joystick) => {
 		// The joystick handle is defined inside of this function
 
 		// Given a direction, return the vector of change that this direction
