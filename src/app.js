@@ -17,7 +17,7 @@ const matrix = SenseHat.Leds
 // Let's create something to draw
 const ball = {
   // Let's draw a red ball (this is an RGB array)
-  color: [ 255, 0, 0 ],
+  color: [ 0, 255, 0 ],
   // And let's start it off in the top left corner
   x: 0,
   y: 0
