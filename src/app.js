@@ -1,7 +1,7 @@
 // This file is meant to be used as a starting point for a sense-hat application
 // using node-sense-hat. It first sets up a ball to be drawn, at a specific
 // position with a specific color.
-// A function to draw the said ball is the created, and also setup to be called
+// A function to draw the said ball is then created, and also setup to be called
 // once every 50ms.
 // We then register for events on the joystick, and use the information passed
 // into the event handlers to move the ball in the same direction that the
